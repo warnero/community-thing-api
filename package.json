@@ -1,0 +1,38 @@
+{
+  "name": "community-thing-api",
+  "version": "0.0.1",
+  "description": "Rest-based API for community-oriented application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Warner Onstine <warner@warneronstine.com>",
+  "license": "ISC",
+  "dependencies": {
+    "restify": "2.x",
+    "mongoose": "*",
+    "moment": "~2.8.4",
+    "mongodb": "*",
+    "mongoose-validator": "*",
+    "validator": "*",
+    "restify-oauth2": "*",
+    "redis": "*",
+    "request": "*",
+    "async": "*",
+    "lodash": "*",
+    "convict": "*",
+    "meetup-api": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "supertest": "*",
+    "blanket": "*",
+    "hyperquest": "*",
+    "gulp": "*",
+    "gulp-mocha": "*",
+    "gulp-jshint": "*",
+    "gulp-exit": "*",
+    "q": "*"
+  }
+}

@@ -1,0 +1,4 @@
+{
+    "port": 5536,
+    "mongo": "mongodb://localhost/community-test"
+}
